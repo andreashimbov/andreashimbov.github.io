@@ -42,7 +42,7 @@ logos:
 
 	<!--BRAND-->
 	<div id="brand" class="span9" style="padding-right:10px;">
-	{% for i in (1..24) %}
+	{% for i in (1..24) reversed %}
 		<a href="./img/brands/{{ i }}.jpg" class="thumb-wrap lightbox-2" rel="brands">
         	<img class="thumb" src="./img/brands/thumbs/{{ i }}.jpg" width="200" height="160" alt="logo1">
     	</a>
@@ -51,7 +51,7 @@ logos:
 
 	<!--MOBILE-->
 	<div id="mobile" class="span9" style="padding-right:10px;">
-	{% for i in (1..10) %}
+	{% for i in (1..10) reversed %}
 		<a href="./img/ui/{{ i }}.jpg" class="thumb-wrap lightbox-2" rel="ui">
 	        <img class="thumb" src="./img/ui/thumbs/{{ i }}.jpg" width="200" height="160" alt="logo1">
 	    </a>		
